@@ -1,0 +1,73 @@
+page-sign {
+    .bg{
+        background-image: url('../../assets/868fd588c3cf00814ac651181ee3bead.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+    .logos{
+        display: flex;
+        padding: 1rem;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 30vh;
+        h1{
+            color: $themecolor3;
+            margin-top:-1.5rem;
+        }
+        img{
+            height: 15rem;
+            width: 15rem;
+        }
+    }
+    .card{
+        text-align: center;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        // height: 40vh;
+        background-color:rgba( $themecolor2,.6);
+        button{
+            color: whitesmoke;
+        }
+        h1{
+            color: white;
+        }
+        .cont{
+            margin-top: 2rem;
+        }
+        .item{
+            padding: .5rem;
+            color: rgb(65, 65, 65);
+            margin-top: 2rem;
+            border-radius: .5rem;
+            background-color: rgba(rgb(199, 199, 199),.8);
+            .icon{
+                font-size: 3rem;
+                color: $themecolor1;
+                margin-right: 15px;
+            }
+        }
+        input{
+            // margin-bottom: 1rem;
+            // background-color: rgb(212, 212, 212)
+        }
+    }
+    .card1{
+        display: flex;
+        padding: .5rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // height: 50vh;
+        p{
+            color: $themecolor3;
+            font-size: 1.6rem;
+        }
+        .lastp{
+            margin-top: -.5rem;
+        }
+    }
+}
