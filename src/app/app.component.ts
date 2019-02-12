@@ -14,7 +14,7 @@ import { ProfilePage } from '../pages/profile/profile';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: any = ProfilePage;
 
   pages: Array<{title: string, component: any, icon:string}>;
 
@@ -25,8 +25,8 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage, icon:"home" },
       // { title: 'List', component: ListPage },
-      { title: 'login', component: LogInPage, icon:'' },
-      {title: 'profile',component: ProfilePage, icon:''}
+      { title: 'logOut', component: LogInPage, icon:"log-out" },
+      {title: 'profile',component: ProfilePage, icon:"person"}
     ];
 
   }
