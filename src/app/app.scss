@@ -18,7 +18,24 @@
 .side{
     background-color: #3e432e;
   }
- 
+
+
+ .info{
+     display: flex;
+     align-items: center;
+  
+    //  flex-direction: row;
+
+    p{
+        margin-left: 2rem;
+        color: $themecolor3;
+    }
+     .icon{
+        font-size: 3rem;
+        // color: $themecolor2;
+    }
+
+ }
   .item{
       background: transparent;
       border: none;
@@ -53,6 +70,7 @@
             margin-top: -.5rem;
         }
     }
+  
     .image{
         display: flex;
         justify-content: flex-start;
