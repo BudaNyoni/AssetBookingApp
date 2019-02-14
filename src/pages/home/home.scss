@@ -13,14 +13,14 @@ page-home {
         align-items: center;
         width: 100%;
         height: 25vh;
-        h1{
+        h2{
             color: $themecolor3;
             margin-top:-1.5rem;
-            font-size: 5rem;
+            font-size: 4rem;
         }
         img{
-            height: 12rem;
-            width: 12rem;
+            height: 10rem;
+            width: 10rem;
         }
     }
 
@@ -36,8 +36,10 @@ page-home {
         img{
             height: 5rem;
             width: 5rem;
+            // margin-top: 5rem;
         }
         h4{
+            margin-top: .5rem;
             text-shadow: 0 .2rem .8rem rgba($themecolor2,.5);
         }
     }
@@ -55,10 +57,11 @@ page-home {
            justify-content: center;
            align-items: center;
            height: 39vh;
+        //    padding: 1rem;
            color: $themecolor2;
            width: 50%;
            background: $themecolor1;
-           h1{
+           h3{
             text-shadow: 0 .2rem .8rem rgba(black,.5);
         }
             :hover{
@@ -66,8 +69,8 @@ page-home {
             }
            img{
             border-radius: 10rem;
-            height: 15rem;
-            width: 15rem;
+            height: 10rem;
+            width: 10rem;
             box-shadow: 0 .2rem .8rem rgba(black,.5);
         }
         
@@ -82,16 +85,13 @@ page-home {
         color: $themecolor1;
         width: 50%;
         background: $themecolor2;
-        h1{
+        h3{
             text-shadow: 0 .3rem 1rem rgba(black,.5);
         }
         img{
             border-radius: 10rem;
-            height: 15rem;
-            // background: rgb(76, 215, 233);
-
-            // padding: 1rem;
-            width: 15rem;
+            height: 10rem;
+            width: 10rem;
             box-shadow: 0 .2rem .8rem rgba(black,.5);
         }
        }

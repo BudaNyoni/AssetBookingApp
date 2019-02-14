@@ -64,13 +64,26 @@ $themecolor1:#3e432e;
 $themecolor2:#616f39;
 $themecolor3:#a7d129;
 
+$alert-md-background-color:#b2d430;
+$alert-md-border-radius:2rem;
+$alerrt-ios-background-color:#b2d430;
 
+
+
+
+
+.alert-md .alert-title{
+  font-weight: 22px;
+  color: white;
+}
 
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
 
-
+.alert-ios .alert-wrapper{
+  background-color: #32db64;
+}
 
 
 // App Material Design Variables
